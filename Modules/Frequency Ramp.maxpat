@@ -29,6 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 120.0, 15.0, 75.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.0, 15.0, 75.0, 15.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-12", "number", "int", 0, 5, "obj-11", "number", "int", 0, 5, "obj-6", "number", "int", 0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-12", "number", "int", 70, 5, "obj-11", "number", "int", 55, 5, "obj-6", "number", "int", 282 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
@@ -337,9 +359,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 150.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 105.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 105.0, 20.0 ],
 					"text" : "Frequency Ramp"
 				}
 
@@ -484,6 +506,33 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

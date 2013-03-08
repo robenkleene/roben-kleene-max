@@ -29,6 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 120.0, 15.0, 90.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.0, 15.0, 75.0, 15.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-18", "number", "int", 0, 5, "obj-17", "number", "int", 0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-18", "number", "int", 308, 5, "obj-17", "number", "int", 7 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -36,9 +58,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 150.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 90.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 90.0, 20.0 ],
 					"text" : "AD Envelope"
 				}
 
@@ -194,6 +216,24 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 1 ],
 					"disabled" : 0,
