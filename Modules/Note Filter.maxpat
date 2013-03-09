@@ -43,7 +43,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Bang",
 					"id" : "obj-2",
 					"maxclass" : "outlet",
 					"numinlets" : 1,

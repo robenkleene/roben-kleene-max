@@ -72,7 +72,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Frequency",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -84,7 +84,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Trigger Phase",
 					"id" : "obj-1",
 					"maxclass" : "inlet",
 					"numinlets" : 0,

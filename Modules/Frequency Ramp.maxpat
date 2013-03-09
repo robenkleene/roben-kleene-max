@@ -97,7 +97,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Trigger",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -109,7 +109,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Ramp",
 					"id" : "obj-1",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
