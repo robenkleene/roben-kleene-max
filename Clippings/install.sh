@@ -24,13 +24,7 @@ function CopyToDestination {
 	FILENAME=$1
  	DESTINATION=$DESTINATION_DIRECTORY_PATH/$FILENAME
 
-	echo "cp \"$DIRECTORY/$thisFILE\" \"$DESTINATION\""
-
-	# if [ -f $DESTINATION ] || [ -d $DESTINATION ]; then
-	# 	echo "$DESTINATION skipped because it already exists."
-	# else
-	# 	ln -s $DIRECTORY/$thisFILE $DESTINATION
-	# fi	
+	cp "$DIRECTORY/$thisFILE" "$DESTINATION"
 }
 
 for thisFILE in *; do 
