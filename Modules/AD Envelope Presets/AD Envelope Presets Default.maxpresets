@@ -1,0 +1,19 @@
+{
+	"preset_data" : [ 		{
+			"number" : 1,
+			"data" : [ 5, "obj-18", "number", "int", 308, 5, "obj-17", "number", "int", 5 ]
+		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "obj-18", "number", "int", 308, 5, "obj-17", "number", "int", 7 ]
+		}
+, 		{
+			"number" : 3,
+			"data" : [ 5, "obj-18", "number", "int", 235, 5, "obj-17", "number", "int", 21 ]
+		}
+, 		{
+			"number" : 4,
+			"data" : [ 5, "obj-18", "number", "int", 258, 5, "obj-17", "number", "int", 39 ]
+		}
+ ]
+}
