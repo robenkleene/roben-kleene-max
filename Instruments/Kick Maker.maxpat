@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 97.0, 75.0, 629.0, 331.0 ],
+		"rect" : [ 699.0, 68.0, 639.0, 289.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,34 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "gain~",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 165.0, 165.0, 30.0, 75.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 165.0, 165.0, 30.0, 75.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "Note Filter.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 105.0, 0.0, 150.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 105.0, 0.0, 150.0, 45.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -130,9 +158,9 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 165.0, 375.0, 75.0 ],
+					"patching_rect" : [ 210.0, 165.0, 330.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 165.0, 375.0, 75.0 ]
+					"presentation_rect" : [ 210.0, 165.0, 330.0, 75.0 ]
 				}
 
 			}
@@ -166,16 +194,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
+					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-40", 0 ]
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-40", 0 ]
@@ -218,25 +246,50 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "AD Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
-				"patcherrelativepath" : "../../../../../../Documents/Max/Modules",
+				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Oscillator.maxpat",
 				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
-				"patcherrelativepath" : "../../../../../../Documents/Max/Modules",
+				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency Ramp.maxpat",
 				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
-				"patcherrelativepath" : "../../../../../../Documents/Max/Modules",
+				"patcherrelativepath" : "./Modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Note Filter.maxpat",
+				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
