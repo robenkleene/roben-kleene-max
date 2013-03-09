@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 90.0, 69.0, 918.0, 523.0 ],
+		"rect" : [ 295.0, 125.0, 918.0, 523.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -34,9 +34,9 @@
 					"name" : "Step Row.maxpat",
 					"numinlets" : 16,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 180.0, 555.0, 45.0 ],
+					"patching_rect" : [ 0.0, 180.0, 600.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 120.0, 555.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 120.0, 600.0, 45.0 ]
 				}
 
 			}
@@ -47,9 +47,9 @@
 					"name" : "Step Row.maxpat",
 					"numinlets" : 16,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 105.0, 555.0, 45.0 ],
+					"patching_rect" : [ 0.0, 105.0, 600.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 555.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 75.0, 600.0, 45.0 ]
 				}
 
 			}
@@ -61,9 +61,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 16,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 0.0, 0.0, 495.0, 75.0 ],
+					"patching_rect" : [ 0.0, 0.0, 555.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 495.0, 75.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 540.0, 75.0 ]
 				}
 
 			}

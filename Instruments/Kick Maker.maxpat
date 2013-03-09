@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 284.0, 367.0, 796.0, 480.0 ],
+		"rect" : [ 229.0, 361.0, 796.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -95,7 +95,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 330.0, 45.0, 210.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 15.0, 210.0, 135.0 ]
+					"presentation_rect" : [ 330.0, 45.0, 210.0, 105.0 ]
 				}
 
 			}
@@ -118,9 +118,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 195.0, 45.0, 45.0 ],
+					"patching_rect" : [ 495.0, 195.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 195.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 495.0, 195.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -130,9 +130,9 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 165.0, 330.0, 75.0 ],
+					"patching_rect" : [ 105.0, 165.0, 375.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 165.0, 330.0, 75.0 ]
+					"presentation_rect" : [ 105.0, 165.0, 375.0, 75.0 ]
 				}
 
 			}
