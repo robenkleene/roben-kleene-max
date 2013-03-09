@@ -36,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 45.0, 72.0, 20.0 ],
+					"patching_rect" : [ 195.0, 15.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -51,8 +51,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 15.0, 37.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 15.0, 37.0, 19.0 ],
 					"text" : "read"
 				}
 
@@ -67,8 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 15.0, 39.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 15.0, 39.0, 19.0 ],
 					"text" : "write"
 				}
 
@@ -80,18 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 15.0, 15.0, 75.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 75.0, 15.0 ],
-					"preset_data" : [ 						{
-							"number" : 1,
-							"data" : [ 5, "<invalid>", "number", "int", 2, 5, "<invalid>", "number", "int", 1 ]
-						}
-, 						{
-							"number" : 2,
-							"data" : [ 5, "<invalid>", "number", "int", 4, 5, "<invalid>", "number", "int", 3 ]
-						}
- ]
+					"patching_rect" : [ 15.0, 15.0, 75.0, 15.0 ]
 				}
 
 			}
