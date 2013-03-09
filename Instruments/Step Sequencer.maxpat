@@ -34,9 +34,9 @@
 					"name" : "Step Row.maxpat",
 					"numinlets" : 16,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 180.0, 600.0, 45.0 ],
+					"patching_rect" : [ 0.0, 180.0, 780.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 120.0, 600.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 120.0, 780.0, 45.0 ]
 				}
 
 			}
@@ -47,9 +47,9 @@
 					"name" : "Step Row.maxpat",
 					"numinlets" : 16,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 105.0, 600.0, 45.0 ],
+					"patching_rect" : [ 0.0, 105.0, 780.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 600.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 75.0, 780.0, 45.0 ]
 				}
 
 			}
