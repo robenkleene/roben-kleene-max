@@ -116,8 +116,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 75.0, 38.0, 20.0 ],
-					"text" : "route"
+					"patching_rect" : [ 15.0, 75.0, 63.0, 20.0 ],
+					"text" : "routepass"
 				}
 
 			}
@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 45.0, 76.0, 20.0 ],
+					"patching_rect" : [ 75.0, 45.0, 76.0, 20.0 ],
 					"text" : "receive note"
 				}
 
