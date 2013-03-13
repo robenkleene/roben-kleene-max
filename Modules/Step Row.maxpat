@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 476.0, 120.0, 874.0, 630.0 ],
+		"rect" : [ 316.0, 293.0, 1124.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,39 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 660.0, 15.0, 30.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 660.0, 15.0, 30.0, 20.0 ],
+					"text" : "ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "number",
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 600.0, 15.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 600.0, 15.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -81,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 780.0, 15.0, 72.0, 20.0 ],
+					"patching_rect" : [ 870.0, 15.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -95,9 +128,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 15.0, 37.0, 19.0 ],
+					"patching_rect" : [ 780.0, 15.0, 37.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 690.0, 15.0, 37.0, 19.0 ],
+					"presentation_rect" : [ 780.0, 15.0, 37.0, 19.0 ],
 					"text" : "read"
 				}
 
@@ -111,9 +144,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.0, 15.0, 39.0, 19.0 ],
+					"patching_rect" : [ 825.0, 15.0, 39.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 735.0, 15.0, 39.0, 19.0 ],
+					"presentation_rect" : [ 825.0, 15.0, 39.0, 19.0 ],
 					"text" : "write"
 				}
 
@@ -125,24 +158,28 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 600.0, 15.0, 75.0, 15.0 ],
+					"patching_rect" : [ 690.0, 15.0, 75.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 600.0, 15.0, 75.0, 15.0 ],
+					"presentation_rect" : [ 690.0, 15.0, 75.0, 15.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-1", "number", "int", 72, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 0, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 0, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 0, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-4", "number", "int", 750, 5, "obj-1", "number", "int", 72, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 0, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 0, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 0, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-1", "number", "int", 72, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 1, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 1, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
+							"data" : [ 5, "obj-4", "number", "int", 750, 5, "obj-1", "number", "int", 72, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 1, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 1, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-1", "number", "int", 72, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 0, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 0, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
+							"data" : [ 5, "obj-4", "number", "int", 750, 5, "obj-1", "number", "int", 72, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 0, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 0, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-1", "number", "int", 73, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 1, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 1, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
+							"data" : [ 5, "obj-4", "number", "int", 750, 5, "obj-1", "number", "int", 73, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 1, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 1, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 5, "obj-4", "number", "int", 750, 5, "obj-1", "number", "int", 73, 5, "obj-81", "toggle", "int", 0, 5, "obj-83", "toggle", "int", 0, 5, "obj-85", "toggle", "int", 0, 5, "obj-87", "toggle", "int", 0, 5, "obj-69", "toggle", "int", 0, 5, "obj-71", "toggle", "int", 0, 5, "obj-73", "toggle", "int", 0, 5, "obj-75", "toggle", "int", 1, 5, "obj-57", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 0, 5, "obj-61", "toggle", "int", 0, 5, "obj-63", "toggle", "int", 0, 5, "obj-33", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "toggle", "int", 1 ]
 						}
  ]
 				}
@@ -994,6 +1031,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1142,6 +1188,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
