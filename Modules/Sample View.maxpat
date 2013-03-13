@@ -121,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 690.0, 105.0, 60.0, 20.0 ],
+					"patching_rect" : [ 705.0, 105.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -136,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 135.0, 75.0, 33.0 ],
+					"patching_rect" : [ 660.0, 135.0, 75.0, 33.0 ],
 					"text" : "Bug fix for \nNaN erro"
 				}
 
@@ -150,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 105.0, 40.0, 18.0 ],
+					"patching_rect" : [ 660.0, 105.0, 40.0, 18.0 ],
 					"text" : "offset"
 				}
 
@@ -278,9 +278,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 150.0, 150.0, 480.0, 120.0 ],
+					"patching_rect" : [ 150.0, 150.0, 495.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 480.0, 120.0 ]
+					"presentation_rect" : [ 15.0, 15.0, 495.0, 120.0 ]
 				}
 
 			}
@@ -305,9 +305,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 150.0, 480.0, 120.0 ],
+					"patching_rect" : [ 150.0, 150.0, 495.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 480.0, 120.0 ]
+					"presentation_rect" : [ 15.0, 15.0, 495.0, 120.0 ]
 				}
 
 			}
@@ -399,7 +399,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 699.5, 126.0, 687.0, 126.0, 687.0, 102.0, 654.5, 102.0 ],
+					"midpoints" : [ 714.5, 126.0, 702.0, 126.0, 702.0, 102.0, 669.5, 102.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -409,7 +409,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 654.5, 135.0, 159.5, 135.0 ],
+					"midpoints" : [ 669.5, 135.0, 159.5, 135.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
