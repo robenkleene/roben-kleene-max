@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 67.0, 65.0, 892.0, 205.0 ],
+		"rect" : [ 68.0, 164.0, 940.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -359,14 +359,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Step Engine.maxpat",
-				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Step Row.maxpat",
-				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
