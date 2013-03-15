@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 70.0, 44.0, 1042.0, 742.0 ],
+		"rect" : [ 398.0, 93.0, 1042.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,9 +46,9 @@
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
 					"name" : "ADSR Envelope.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 330.0, 450.0, 420.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 270.0, 420.0, 105.0 ]
@@ -108,7 +108,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 330.0, 33.0, 18.0 ],
+					"patching_rect" : [ 135.0, 360.0, 33.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 210.0, 33.0, 18.0 ],
 					"text" : "stop"
@@ -124,7 +124,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 285.0, 112.0, 20.0 ],
+					"patching_rect" : [ 285.0, 285.0, 112.0, 20.0 ],
 					"text" : "receive #0startstop"
 				}
 
@@ -543,8 +543,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Sample Transport.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "float" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "float" ],
 					"patching_rect" : [ 330.0, 315.0, 225.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 195.0, 225.0, 75.0 ]
@@ -712,15 +712,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -742,7 +733,7 @@
 					"destination" : [ "obj-94", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 3 ]
+					"source" : [ "obj-2", 2 ]
 				}
 
 			}
@@ -785,7 +776,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
