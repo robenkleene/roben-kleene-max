@@ -8,9 +8,10 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 101.0, 44.0, 986.0, 810.0 ],
+		"rect" : [ 474.0, 44.0, 593.0, 644.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -65,7 +66,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 135.0, 91.0, 20.0 ],
+					"patching_rect" : [ 225.0, 135.0, 103.0, 20.0 ],
 					"text" : "send #0sustain"
 				}
 
@@ -128,7 +129,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 270.0, 104.0, 20.0 ],
+					"patching_rect" : [ 390.0, 270.0, 116.0, 20.0 ],
 					"text" : "receive #0sustain"
 				}
 
@@ -499,7 +500,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 180.0, 120.0, 25.0, 25.0 ]
 				}
 
@@ -525,7 +526,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 15.0, 120.0, 25.0, 25.0 ]
 				}
 
@@ -845,14 +846,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "Notes to Bangs.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
