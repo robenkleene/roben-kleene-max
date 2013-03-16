@@ -32,7 +32,7 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
-					"name" : "Function-Line.maxpat",
+					"name" : "Function to Line.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
@@ -228,7 +228,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Function-Line.maxpat",
+				"name" : "Function to Line.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./",
 				"type" : "JSON",
