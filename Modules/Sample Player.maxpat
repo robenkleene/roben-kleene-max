@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 540.0, 60.0, 18.0 ],
-					"text" : "speed $1"
+					"patching_rect" : [ 225.0, 540.0, 76.0, 18.0 ],
+					"text" : "setspeed $1"
 				}
 
 			}
@@ -552,20 +552,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 255.0, 74.0, 20.0 ],
-					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -592,6 +578,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
@@ -629,7 +624,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -765,15 +760,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -822,14 +808,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "Sample View.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "./",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample Transport.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "./",
 				"type" : "JSON",
 				"implicit" : 1
 			}
