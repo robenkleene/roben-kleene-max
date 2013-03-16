@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 63.0, 64.0, 1052.0, 795.0 ],
+		"openrect" : [ 63.0, 64.0, 526.0, 375.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
