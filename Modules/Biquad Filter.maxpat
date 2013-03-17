@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 59.0, 44.0, 996.0, 810.0 ],
+		"rect" : [ 588.0, 180.0, 996.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"patching_rect" : [ 270.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
-					"varname" : "Frequency"
+					"varname" : "frequency"
 				}
 
 			}
@@ -405,6 +405,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
+					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 					"maxclass" : "filtergraph~",
 					"nfilters" : 1,
 					"numinlets" : 8,
