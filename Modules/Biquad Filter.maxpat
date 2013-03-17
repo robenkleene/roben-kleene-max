@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 588.0, 180.0, 996.0, 810.0 ],
+		"rect" : [ 328.0, 129.0, 497.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -404,6 +404,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.941176, 0.941176, 0.941176, 0.5 ],
+					"fgcolor" : [ 0.878431, 0.878431, 0.878431, 0.5 ],
 					"id" : "obj-2",
 					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
 					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
@@ -413,10 +415,24 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.0, 165.0, 256.0, 128.0 ],
+					"patching_rect" : [ 240.0, 165.0, 300.0, 120.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 45.0, 300.0, 120.0 ],
 					"setfilter" : [ 0, 0, 1, 0, 0, 40.0, 1.0, 0.0001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "spectroscope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 240.0, 165.0, 300.0, 120.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 45.0, 300.0, 120.0 ],
+					"rounded" : 1
 				}
 
 			}
@@ -559,6 +575,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
