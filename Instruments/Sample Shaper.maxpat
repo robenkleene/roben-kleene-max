@@ -662,7 +662,7 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "Function Envelope Reversible.maxpat",
+					"name" : "Function Amp Envelope Reversible.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -1024,7 +1024,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function Envelope Reversible.maxpat",
+				"name" : "Function Amp Envelope Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
