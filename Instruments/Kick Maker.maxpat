@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 229.0, 361.0, 796.0, 480.0 ],
@@ -76,7 +76,7 @@
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "Oscillator.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 0.0, 165.0, 90.0, 75.0 ],
@@ -175,7 +175,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
+					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
@@ -221,28 +221,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "AD Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Oscillator.maxpat",
-				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency Ramp.maxpat",
-				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Note Filter.maxpat",
-				"bootpath" : "/Users/robenkleene/Documents/Max/Modules",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
