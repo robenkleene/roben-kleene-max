@@ -238,7 +238,7 @@
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
-					"name" : "Function to Line.maxpat",
+					"name" : "Function to Line Reversible.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
@@ -662,7 +662,7 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "Function Envelope.maxpat",
+					"name" : "Function Envelope Reversible.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -976,16 +976,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 129.5, 585.0, 507.0, 585.0, 507.0, 594.0, 519.5, 594.0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1024,14 +1014,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function Envelope.maxpat",
+				"name" : "Function Envelope Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function to Line.maxpat",
+				"name" : "Function to Line Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",

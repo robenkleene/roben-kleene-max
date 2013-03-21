@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 145.0, 54.0, 1096.0, 800.0 ],
@@ -32,7 +32,7 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
-					"name" : "Function to Line.maxpat",
+					"name" : "Function to Line Reversible.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
@@ -228,7 +228,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Function to Line.maxpat",
+				"name" : "Function to Line Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./",
 				"type" : "JSON",
