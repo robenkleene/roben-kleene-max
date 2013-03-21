@@ -238,7 +238,7 @@
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
-					"name" : "Function to Line Reversible.maxpat",
+					"name" : "Function Envelope Reversible.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
@@ -1031,7 +1031,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Function to Line Reversible.maxpat",
+				"name" : "Function Envelope Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
