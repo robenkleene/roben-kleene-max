@@ -31,7 +31,7 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "bpatcher",
-					"name" : "Biquad Filter Plugin.maxpat",
+					"name" : "Biquad Filter Plugin Signal.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -224,7 +224,7 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "bpatcher",
-					"name" : "Biquad Filter Plugin.maxpat",
+					"name" : "Biquad Filter Plugin Signal.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -1038,7 +1038,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Biquad Filter Plugin.maxpat",
+				"name" : "Biquad Filter Plugin Signal.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
