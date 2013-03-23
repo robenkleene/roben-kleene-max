@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 68.0, 164.0, 940.0, 501.0 ],
+		"rect" : [ 288.0, 164.0, 940.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,12 +29,66 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 105.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 15.0, 75.0, 53.0, 20.0 ],
+					"text" : "select S"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 15.0, 45.0, 46.0, 20.0 ],
+					"text" : "itoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 15.0, 15.0, 59.5, 20.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "Step Row.maxpat",
 					"numinlets" : 16,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 180.0, 780.0, 45.0 ],
+					"patching_rect" : [ 0.0, 315.0, 780.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 120.0, 870.0, 45.0 ]
 				}
@@ -47,7 +101,7 @@
 					"name" : "Step Row.maxpat",
 					"numinlets" : 16,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 105.0, 780.0, 45.0 ],
+					"patching_rect" : [ 0.0, 240.0, 780.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 75.0, 870.0, 45.0 ]
 				}
@@ -58,10 +112,10 @@
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "Step Engine.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 16,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 0.0, 0.0, 555.0, 75.0 ],
+					"patching_rect" : [ 0.0, 135.0, 555.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 540.0, 75.0 ]
 				}
@@ -353,6 +407,42 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
