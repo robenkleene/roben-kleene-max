@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 61.0, 48.0, 1180.0, 806.0 ],
+		"rect" : [ 103.0, 44.0, 1180.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -170,11 +170,11 @@
 					"patching_rect" : [ 510.0, 45.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"Drum Synth Module 1 Active" : [ 1 ],
-						"Drum Synth Module 2 Active" : [ 0 ],
-						"Drum Synth Module 3 Active" : [ 0 ],
-						"Dum Synth Module 1 Gain" : [ 0 ],
-						"Dum Synth Module 2 Gain" : [ 0 ],
-						"Dum Synth Module 3 Gain" : [ 0 ]
+						"Drum Synth Module 2 Active" : [ 1 ],
+						"Drum Synth Module 3 Active" : [ 1 ],
+						"Dum Synth Module 1 Gain" : [ 122 ],
+						"Dum Synth Module 2 Gain" : [ 93 ],
+						"Dum Synth Module 3 Gain" : [ 70 ]
 					}
 ,
 					"text" : "autopattr",
@@ -574,7 +574,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 120.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 570.0, 390.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 555.0, 390.0, 45.0, 45.0 ]
 				}
 
 			}
