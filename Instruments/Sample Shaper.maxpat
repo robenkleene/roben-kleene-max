@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 122.0, 44.0, 1172.0, 810.0 ],
+		"rect" : [ 199.0, 44.0, 1168.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,8 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 165.0, 855.0, 330.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 495.0, 330.0, 240.0 ]
+					"presentation_rect" : [ 15.0, 495.0, 330.0, 240.0 ],
+					"varname" : "Biquad Filter Plugin Signal[1]"
 				}
 
 			}
@@ -230,7 +231,8 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 165.0, 600.0, 330.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 510.0, 300.0, 330.0, 240.0 ]
+					"presentation_rect" : [ 510.0, 300.0, 330.0, 240.0 ],
+					"varname" : "Biquad Filter Plugin Signal"
 				}
 
 			}
