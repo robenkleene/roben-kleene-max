@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 217.0, 106.0, 959.0, 545.0 ],
@@ -32,6 +32,25 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 420.0, 15.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"Bypass" : [ 0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u195000449"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
@@ -54,7 +73,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 90.0, 135.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
+					"varname" : "Bypass"
 				}
 
 			}
