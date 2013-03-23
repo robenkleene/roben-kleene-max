@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 87.0, 48.0, 1126.0, 731.0 ],
+		"rect" : [ 61.0, 48.0, 1180.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,13 +29,58 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "gain~",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 1095.0, 195.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 660.0, 195.0, 30.0 ],
+					"varname" : "Dum Synth Module 3 Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "gain~",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 570.0, 615.0, 195.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 555.0, 330.0, 195.0, 30.0 ],
+					"varname" : "Dum Synth Module 2 Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "gain~",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 615.0, 195.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 330.0, 195.0, 30.0 ],
+					"varname" : "Dum Synth Module 1 Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 645.0, 20.0, 20.0 ],
+					"patching_rect" : [ 15.0, 705.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 390.0, 20.0, 20.0 ],
 					"varname" : "Drum Synth Module 3 Active"
@@ -51,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 675.0, 34.0, 20.0 ],
+					"patching_rect" : [ 15.0, 735.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -65,7 +110,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 645.0, 58.0, 20.0 ],
+					"patching_rect" : [ 45.0, 705.0, 58.0, 20.0 ],
 					"text" : "r #0bang"
 				}
 
@@ -126,11 +171,14 @@
 					"restore" : 					{
 						"Drum Synth Module 1 Active" : [ 1 ],
 						"Drum Synth Module 2 Active" : [ 0 ],
-						"Drum Synth Module 3 Active" : [ 0 ]
+						"Drum Synth Module 3 Active" : [ 0 ],
+						"Dum Synth Module 1 Gain" : [ 0 ],
+						"Dum Synth Module 2 Gain" : [ 0 ],
+						"Dum Synth Module 3 Gain" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u344000267"
+					"varname" : "u645000430"
 				}
 
 			}
@@ -198,7 +246,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 1035.0, 93.0, 20.0 ],
+					"patching_rect" : [ 15.0, 1140.0, 93.0, 20.0 ],
 					"text" : "send~ #0sound"
 				}
 
@@ -211,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 705.0, 555.0, 315.0 ],
+					"patching_rect" : [ 15.0, 765.0, 555.0, 315.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 375.0, 555.0, 315.0 ],
 					"varname" : "Drum Synth Module"
@@ -226,7 +274,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 570.0, 615.0, 93.0, 20.0 ],
+					"patching_rect" : [ 570.0, 660.0, 93.0, 20.0 ],
 					"text" : "send~ #0sound"
 				}
 
@@ -253,7 +301,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 615.0, 93.0, 20.0 ],
+					"patching_rect" : [ 15.0, 660.0, 93.0, 20.0 ],
 					"text" : "send~ #0sound"
 				}
 
@@ -548,7 +596,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -620,7 +668,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -701,7 +749,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
@@ -768,6 +825,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
