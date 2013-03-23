@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 328.0, 129.0, 497.0, 747.0 ],
+		"rect" : [ 312.0, 44.0, 709.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,27 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 555.0, 45.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"Frequency" : [ 252 ],
+						"Gain" : [ -0.331414 ],
+						"Q" : [ 0.368561 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u779000108"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -68,7 +89,7 @@
 					"patching_rect" : [ 270.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
-					"varname" : "frequency"
+					"varname" : "Frequency"
 				}
 
 			}
@@ -199,8 +220,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 345.0, 44.0, 20.0 ],
-					"text" : "pvar q"
+					"patching_rect" : [ 375.0, 345.0, 47.0, 20.0 ],
+					"text" : "pvar Q"
 				}
 
 			}
@@ -227,8 +248,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 375.0, 60.0, 20.0 ],
-					"text" : "pvar gain"
+					"patching_rect" : [ 330.0, 375.0, 63.0, 20.0 ],
+					"text" : "pvar Gain"
 				}
 
 			}
@@ -241,8 +262,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 405.0, 90.0, 20.0 ],
-					"text" : "pvar frequency"
+					"patching_rect" : [ 285.0, 405.0, 94.0, 20.0 ],
+					"text" : "pvar Frequency"
 				}
 
 			}
@@ -303,7 +324,7 @@
 					"patching_rect" : [ 480.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 225.0, 15.0, 50.0, 20.0 ],
-					"varname" : "q"
+					"varname" : "Q"
 				}
 
 			}
@@ -352,7 +373,7 @@
 					"patching_rect" : [ 375.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 15.0, 50.0, 20.0 ],
-					"varname" : "gain"
+					"varname" : "Gain"
 				}
 
 			}
@@ -384,7 +405,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 15.0, 195.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 180.0, 195.0, 20.0 ]
+					"presentation_rect" : [ 15.0, 180.0, 195.0, 20.0 ],
+					"varname" : "Type"
 				}
 
 			}
@@ -418,7 +440,7 @@
 					"patching_rect" : [ 240.0, 165.0, 300.0, 120.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 45.0, 300.0, 120.0 ],
-					"setfilter" : [ 0, 0, 1, 0, 0, 40.0, 1.0, 0.0001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 5, 1, 0, 0, 251.955093, 0.962563, 0.368561, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
