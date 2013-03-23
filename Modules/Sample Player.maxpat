@@ -650,9 +650,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "float", "float", "float", "float" ],
-					"patching_rect" : [ 195.0, 45.0, 510.0, 150.0 ],
+					"patching_rect" : [ 195.0, 45.0, 525.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 510.0, 150.0 ]
+					"presentation_rect" : [ 0.0, 30.0, 525.0, 150.0 ]
 				}
 
 			}
