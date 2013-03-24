@@ -678,7 +678,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "Sample Player.maxpat",
+					"name" : "Sample Explorer.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
@@ -1005,7 +1005,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sample Player.maxpat",
+				"name" : "Sample Explorer.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : "./Modules",
 				"type" : "JSON",
