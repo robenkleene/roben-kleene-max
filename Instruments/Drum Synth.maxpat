@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 103.0, 44.0, 1130.0, 695.0 ],
+		"rect" : [ 76.0, 44.0, 1305.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,92 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "gain~",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 570.0, 1095.0, 195.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 555.0, 675.0, 195.0, 30.0 ],
+					"varname" : "Dum Synth Module 4 Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 570.0, 1140.0, 93.0, 20.0 ],
+					"text" : "send~ #0sound"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "bpatcher",
+					"name" : "Drum Synth Module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 570.0, 765.0, 555.0, 315.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 540.0, 390.0, 555.0, 315.0 ],
+					"varname" : "Drum Synth Module 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 600.0, 705.0, 58.0, 20.0 ],
+					"text" : "r #0bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 570.0, 735.0, 34.0, 20.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 570.0, 705.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 615.0, 405.0, 20.0, 20.0 ],
+					"varname" : "Drum Synth Module 4 Active"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "gain~",
 					"numinlets" : 2,
@@ -37,7 +123,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 1095.0, 195.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 660.0, 195.0, 30.0 ],
+					"presentation_rect" : [ 15.0, 675.0, 195.0, 30.0 ],
 					"varname" : "Dum Synth Module 3 Gain"
 				}
 
@@ -52,7 +138,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 570.0, 615.0, 195.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 330.0, 195.0, 30.0 ],
+					"presentation_rect" : [ 555.0, 345.0, 195.0, 30.0 ],
 					"varname" : "Dum Synth Module 2 Gain"
 				}
 
@@ -67,7 +153,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 615.0, 195.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 330.0, 195.0, 30.0 ],
+					"presentation_rect" : [ 15.0, 345.0, 195.0, 30.0 ],
 					"varname" : "Dum Synth Module 1 Gain"
 				}
 
@@ -82,7 +168,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 705.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 390.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 405.0, 20.0, 20.0 ],
 					"varname" : "Drum Synth Module 3 Active"
 				}
 
@@ -125,7 +211,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 570.0, 210.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 615.0, 60.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 615.0, 75.0, 20.0, 20.0 ],
 					"varname" : "Drum Synth Module 2 Active"
 				}
 
@@ -172,13 +258,15 @@
 						"Drum Synth Module 1 Active" : [ 1 ],
 						"Drum Synth Module 2 Active" : [ 1 ],
 						"Drum Synth Module 3 Active" : [ 1 ],
+						"Drum Synth Module 4 Active" : [ 0 ],
 						"Dum Synth Module 1 Gain" : [ 122 ],
 						"Dum Synth Module 2 Gain" : [ 93 ],
-						"Dum Synth Module 3 Gain" : [ 70 ]
+						"Dum Synth Module 3 Gain" : [ 70 ],
+						"Dum Synth Module 4 Gain" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u926001087"
+					"varname" : "u572001070"
 				}
 
 			}
@@ -192,7 +280,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 210.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 60.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 75.0, 20.0, 20.0 ],
 					"varname" : "Drum Synth Module 1 Active"
 				}
 
@@ -261,8 +349,8 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 765.0, 555.0, 315.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 375.0, 555.0, 315.0 ],
-					"varname" : "Drum Synth Module"
+					"presentation_rect" : [ 0.0, 390.0, 555.0, 315.0 ],
+					"varname" : "Drum Synth Module 3"
 				}
 
 			}
@@ -328,7 +416,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 570.0, 270.0, 555.0, 330.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 540.0, 45.0, 555.0, 330.0 ],
+					"presentation_rect" : [ 540.0, 60.0, 555.0, 330.0 ],
 					"varname" : "Drum Synth Module 2"
 				}
 
@@ -382,7 +470,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 195.0, 60.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 150.0, 30.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -396,7 +484,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 45.0, 45.0, 150.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 15.0, 150.0, 45.0 ]
 				}
 
 			}
@@ -466,7 +554,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 555.0, 75.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 375.0, 30.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -509,7 +597,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 75.0, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 15.0, 35.0, 18.0 ],
+					"presentation_rect" : [ 285.0, 30.0, 35.0, 18.0 ],
 					"text" : "read"
 				}
 
@@ -525,7 +613,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 510.0, 75.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 15.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 330.0, 30.0, 36.0, 18.0 ],
 					"text" : "write"
 				}
 
@@ -562,7 +650,7 @@
 					"patching_rect" : [ 375.0, 75.0, 75.0, 15.0 ],
 					"pattrstorage" : "Presets",
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 15.0, 75.0, 15.0 ]
+					"presentation_rect" : [ 195.0, 30.0, 75.0, 15.0 ]
 				}
 
 			}
@@ -574,7 +662,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 120.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 390.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 495.0, 15.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -588,7 +676,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 270.0, 555.0, 330.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 45.0, 555.0, 330.0 ],
+					"presentation_rect" : [ 0.0, 60.0, 555.0, 330.0 ],
 					"varname" : "Drum Synth Module 1"
 				}
 
@@ -843,6 +931,51 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
