@@ -86,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 15.0, 79.0, 20.0 ],
+					"patching_rect" : [ 75.0, 15.0, 79.0, 20.0 ],
 					"text" : "loadmess 72"
 				}
 
@@ -102,22 +102,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 75.0, 165.0, 24.0, 20.0 ],
 					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-135",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 15.0, 75.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 75.0, 20.0 ],
-					"text" : "Note Filter"
 				}
 
 			}

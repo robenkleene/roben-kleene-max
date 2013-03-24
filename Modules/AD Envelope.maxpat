@@ -108,12 +108,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 435.0, 15.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"Attack" : [ 5 ],
-						"Decay" : [ 308 ]
+						"Attack" : [ 0 ],
+						"Decay" : [ 1000 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u434000671"
+					"varname" : "u126003497"
 				}
 
 			}
