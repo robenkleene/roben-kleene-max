@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 722.0, 174.0, 234.0, 96.0 ],
+		"rect" : [ 505.0, 264.0, 640.0, 480.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -31,12 +31,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-2",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 120.0, 158.0, 20.0 ],
+					"text" : "loadmess port \"from Max 1\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 90.0, 63.0, 20.0 ],
-					"text" : "send note"
+					"patching_rect" : [ 0.0, 150.0, 51.0, 20.0 ],
+					"text" : "noteout"
 				}
 
 			}
@@ -48,19 +62,26 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 195.0, 75.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 195.0, 75.0 ]
+					"patching_rect" : [ 0.0, 0.0, 180.0, 105.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -68,7 +89,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Note Packer.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
