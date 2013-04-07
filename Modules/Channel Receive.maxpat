@@ -29,6 +29,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 90.0, 30.0, 26.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 75.0, 15.0, 26.0, 20.0 ],
+					"text" : "Ch"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "Channel Select.maxpat",
@@ -37,7 +53,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 15.0, 75.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 75.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 75.0, 45.0 ]
 				}
 
 			}
@@ -131,7 +147,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Channel Select.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Routing",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
