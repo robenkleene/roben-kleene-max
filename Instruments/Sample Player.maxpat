@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "bpatcher",
+					"name" : "Channel Send.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 150.0, 480.0, 135.0, 75.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 180.0, 195.0, 135.0, 75.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -53,18 +66,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 0.0, 210.0, 75.0 ],
 					"varname" : "AD Envelope"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 480.0, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 210.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -286,42 +287,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "Sample Playback.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample View.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample Transport.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Active Key.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Note Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AD Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Channel Send.maxpat",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : "../Modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Channel Select.maxpat",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
