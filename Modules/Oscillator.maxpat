@@ -4,11 +4,12 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 139.0, 191.0, 1068.0, 663.0 ],
+		"rect" : [ 167.0, 157.0, 1068.0, 663.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +43,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u464000477"
+					"varname" : "u988001403"
 				}
 
 			}
@@ -129,8 +130,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 210.0, 90.0, 40.0, 20.0 ],
-					"text" : "t float"
+					"patching_rect" : [ 210.0, 90.0, 21.0, 20.0 ],
+					"text" : "t f"
 				}
 
 			}
@@ -196,11 +197,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 150.0, 60.0, 154.0, 20.0 ],
-					"text" : "routepass signal float bang"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 150.0, 60.0, 170.0, 20.0 ],
+					"text" : "routepass signal float int bang"
 				}
 
 			}
@@ -236,7 +237,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 150.0, 15.0, 25.0, 25.0 ]
 				}
 
@@ -419,6 +420,15 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -437,7 +447,7 @@
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-5", 2 ]
+					"source" : [ "obj-5", 3 ]
 				}
 
 			}
@@ -477,8 +487,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
