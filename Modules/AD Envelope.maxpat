@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 600.0, 120.0, 771.0, 597.0 ],
+		"rect" : [ 600.0, 338.0, 771.0, 597.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -169,7 +169,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u473006237"
+					"varname" : "u463001959"
 				}
 
 			}
@@ -294,29 +294,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 15.0, 90.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 15.0, 90.0, 20.0 ],
-					"text" : "Decay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 45.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 45.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 45.0, 30.0, 20.0 ],
 					"text" : "ms"
 				}
 
@@ -332,24 +316,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 45.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 45.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 15.0, 30.0, 20.0 ],
 					"text" : "ms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-28",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 90.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 90.0, 20.0 ],
-					"text" : "Attack"
 				}
 
 			}
@@ -366,7 +334,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.0, 45.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 45.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
 					"varname" : "Decay"
 				}
 
@@ -384,7 +352,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
 					"varname" : "Attack"
 				}
 

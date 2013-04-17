@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -37,7 +37,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 195.0, 105.0, 225.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 90.0, 225.0, 195.0 ],
+					"presentation_rect" : [ 90.0, 0.0, 225.0, 180.0 ],
 					"varname" : "Frequency Modulation Function Envelope"
 				}
 
@@ -57,7 +57,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u122001348"
+					"varname" : "u080002470"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 195.0, 375.0, 330.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 75.0, 330.0, 240.0 ],
+					"presentation_rect" : [ 300.0, 0.0, 435.0, 180.0 ],
 					"varname" : "Biquad Filter Plugin"
 				}
 
@@ -125,7 +125,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 195.0, 630.0, 210.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 0.0, 210.0, 75.0 ],
+					"presentation_rect" : [ 0.0, 105.0, 105.0, 75.0 ],
 					"varname" : "AD Envelope"
 				}
 
@@ -152,7 +152,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 195.0, 315.0, 90.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 30.0, 90.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 60.0, 90.0, 45.0 ],
 					"varname" : "Oscillator"
 				}
 
@@ -301,56 +301,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "Oscillator.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AD Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Biquad Filter Plugin.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Biquad Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency Modulation Function Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Envelope Modulation.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

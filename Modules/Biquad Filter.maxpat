@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 312.0, 44.0, 709.0, 762.0 ],
+		"rect" : [ 454.0, 280.0, 709.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 165.0, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 180.0, 41.0, 20.0 ],
+					"presentation_rect" : [ 45.0, 60.0, 41.0, 20.0 ],
 					"text" : "Spect"
 				}
 
@@ -53,7 +53,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 165.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 180.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 15.0, 60.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -229,7 +229,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 150.0, 50.0, 20.0 ],
 					"varname" : "Frequency"
 				}
 
@@ -445,7 +445,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 540.0, 90.0, 18.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 15.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 390.0, 150.0, 18.0, 20.0 ],
 					"text" : "Q"
 				}
 
@@ -462,7 +462,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 480.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 15.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 330.0, 150.0, 50.0, 20.0 ],
 					"varname" : "Q"
 				}
 
@@ -478,7 +478,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 435.0, 90.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 15.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 285.0, 150.0, 30.0, 20.0 ],
 					"text" : "dB"
 				}
 
@@ -494,7 +494,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 90.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 180.0, 150.0, 30.0, 20.0 ],
 					"text" : "Hz"
 				}
 
@@ -511,7 +511,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.0, 90.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 15.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 225.0, 150.0, 50.0, 20.0 ],
 					"varname" : "Gain"
 				}
 
@@ -541,10 +541,11 @@
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 15.0, 195.0, 20.0 ],
+					"patching_rect" : [ 240.0, 15.0, 97.5, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 180.0, 195.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 97.5, 40.0 ],
 					"varname" : "Type"
 				}
 
@@ -578,7 +579,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 240.0, 165.0, 300.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 300.0, 120.0 ],
+					"presentation_rect" : [ 120.0, 15.0, 300.0, 120.0 ],
 					"setfilter" : [ 0, 0, 1, 0, 0, 40.0, 1.0, 0.0001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "FiltergraphPattr"
 				}
@@ -593,7 +594,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 165.0, 300.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 300.0, 120.0 ],
+					"presentation_rect" : [ 120.0, 15.0, 300.0, 120.0 ],
 					"rounded" : 1
 				}
 

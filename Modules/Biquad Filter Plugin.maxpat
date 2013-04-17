@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 109.0, 94.0, 1036.0, 726.0 ],
+		"rect" : [ 261.0, 156.0, 1036.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 450.0, 105.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 105.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 75.0, 105.0, 45.0 ],
 					"varname" : "Bypass"
 				}
 
@@ -98,7 +98,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 75.0, 120.0, 330.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 330.0, 210.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 435.0, 180.0 ],
 					"varname" : "Biquad Filter"
 				}
 
@@ -180,14 +180,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "Biquad Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

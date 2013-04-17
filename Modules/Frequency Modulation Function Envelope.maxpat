@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 86.0, 69.0, 731.0, 645.0 ],
+		"rect" : [ 428.0, 286.0, 731.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -113,7 +113,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u215001209"
+					"varname" : "u543001065"
 				}
 
 			}
@@ -145,29 +145,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 105.0, 58.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 0.0, 58.0, 20.0 ],
-					"text" : "Mod Amt"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 255.0, 135.0, 25.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 30.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 150.0, 25.0, 20.0 ],
 					"text" : "Hz"
 				}
 
@@ -184,7 +168,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.0, 135.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 30.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 150.0, 50.0, 20.0 ],
 					"varname" : "Amount"
 				}
 
@@ -214,24 +198,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 105.0, 26.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 30.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 180.0, 150.0, 26.0, 20.0 ],
 					"text" : "ms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 75.0, 56.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 0.0, 56.0, 20.0 ],
-					"text" : "Duration"
 				}
 
 			}
@@ -248,7 +216,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 60.0, 105.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 30.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 150.0, 50.0, 20.0 ],
 					"varname" : "Duration"
 				}
 
@@ -263,7 +231,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 165.0, 225.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 45.0, 225.0, 150.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 225.0, 150.0 ],
 					"varname" : "Function Envelope Modulation"
 				}
 
@@ -353,15 +321,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Function Envelope Modulation.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
