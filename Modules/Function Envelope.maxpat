@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -15,7 +15,7 @@
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -179,7 +179,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 210.0, 195.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 195.0, 120.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 195.0, 128.0 ],
 					"varname" : "FunctionPattr"
 				}
 

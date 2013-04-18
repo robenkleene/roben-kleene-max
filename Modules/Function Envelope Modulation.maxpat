@@ -4,18 +4,18 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 84.0, 69.0, 640.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Arial Bold",
 		"gridonopen" : 0,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -126,9 +126,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 150.0, 90.0, 225.0, 150.0 ],
+					"patching_rect" : [ 150.0, 90.0, 210.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 225.0, 150.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 225.0, 150.0 ],
+					"varname" : "Function Envelope"
 				}
 
 			}
@@ -208,8 +209,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Function Envelope.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Kick Maker 2",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

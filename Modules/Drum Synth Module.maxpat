@@ -11,11 +11,11 @@
 		"rect" : [ 317.0, 44.0, 936.0, 769.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Arial Bold",
 		"gridonopen" : 0,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -35,7 +35,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 645.0, 195.0, 30.0 ],
+					"patching_rect" : [ 192.0, 616.0, 192.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 735.0, 15.0, 30.0, 150.0 ],
 					"varname" : "Gain"
@@ -59,14 +59,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 60.0, 34.0, 20.0 ],
+					"patching_rect" : [ 15.0, 60.0, 32.0, 18.0 ],
 					"text" : "gate"
 				}
 
@@ -79,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 195.0, 105.0, 225.0, 180.0 ],
+					"patching_rect" : [ 192.0, 88.0, 225.0, 180.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 0.0, 225.0, 180.0 ],
 					"varname" : "Frequency Modulation Function Envelope"
@@ -88,14 +88,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 525.0, 60.0, 59.5, 20.0 ],
+					"patching_rect" : [ 525.0, 60.0, 56.0, 18.0 ],
 					"restore" : 					{
 						"Frequency" : [ 440 ],
 						"Gain" : [ 0 ],
@@ -103,20 +103,20 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u878003702"
+					"varname" : "u234001061"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 195.0, 75.0, 46.0, 20.0 ],
+					"patching_rect" : [ 192.0, 64.0, 43.0, 18.0 ],
 					"text" : "sig~ 0."
 				}
 
@@ -128,7 +128,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 690.0, 25.0, 25.0 ]
+					"patching_rect" : [ 192.0, 688.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 195.0, 360.0, 435.0, 180.0 ],
+					"patching_rect" : [ 192.0, 336.0, 435.0, 180.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 300.0, 0.0, 435.0, 180.0 ],
 					"varname" : "Biquad Filter Plugin"
@@ -149,14 +149,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 15.0, 90.0, 46.0, 20.0 ],
+					"patching_rect" : [ 15.0, 90.0, 43.0, 18.0 ],
 					"text" : "t b b b"
 				}
 
@@ -169,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 195.0, 555.0, 105.0, 75.0 ],
+					"patching_rect" : [ 192.0, 528.0, 105.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 105.0, 105.0, 75.0 ],
 					"varname" : "AD Envelope"
@@ -196,7 +196,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 195.0, 300.0, 90.0, 45.0 ],
+					"patching_rect" : [ 192.0, 280.0, 90.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 60.0, 90.0, 45.0 ],
 					"varname" : "Oscillator"
@@ -205,49 +205,49 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 45.0, 25.0, 20.0 ],
+					"patching_rect" : [ 240.0, 40.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 45.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 75.0, 45.0, 23.0, 18.0 ],
 					"text" : "Hz"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 15.0, 75.0, 20.0 ],
+					"patching_rect" : [ 192.0, 16.0, 71.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 15.0, 61.0, 20.0 ],
+					"presentation_rect" : [ 45.0, 15.0, 58.0, 18.0 ],
 					"text" : "Oscillator"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
 					"id" : "obj-6",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 45.0, 50.0, 20.0 ],
+					"patching_rect" : [ 192.0, 40.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 45.0, 45.0, 18.0 ],
 					"varname" : "Frequency"
 				}
 
