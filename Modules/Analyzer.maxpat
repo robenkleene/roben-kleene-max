@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 332.0, 184.0, 920.0, 482.0 ],
+		"rect" : [ 557.0, 272.0, 920.0, 482.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 30.0, 91.0, 20.0 ],
+					"patching_rect" : [ 165.0, 30.0, 91.0, 18.0 ],
 					"text" : "loadmess set 0"
 				}
 
@@ -62,8 +62,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 135.0, 77.0, 18.0 ],
-					"text" : "offset 0 -165"
+					"patching_rect" : [ 120.0, 135.0, 69.0, 16.0 ],
+					"text" : "offset 0 -168"
 				}
 
 			}
@@ -76,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 135.0, 60.0, 18.0 ],
+					"patching_rect" : [ 45.0, 135.0, 60.0, 16.0 ],
 					"text" : "offset 0 0"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 45.0, 90.0, 46.0, 20.0 ],
+					"patching_rect" : [ 45.0, 90.0, 46.0, 18.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -107,7 +107,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 30.0, 75.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 49.0, 49.0 ],
 					"tabs" : [ "spectro", "fffb" ]
 				}
 
@@ -119,9 +119,10 @@
 					"name" : "Analyzer View.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 180.0, 495.0, 180.0 ],
+					"offset" : [ 0.0, -168.0 ],
+					"patching_rect" : [ 15.0, 180.0, 513.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 0.0, 495.0, 180.0 ]
+					"presentation_rect" : [ 56.0, 0.0, 512.0, 168.0 ]
 				}
 
 			}
@@ -192,7 +193,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Analyzer View.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Analysis",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

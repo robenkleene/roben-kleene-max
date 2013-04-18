@@ -113,7 +113,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u543001065"
+					"varname" : "u683004047"
 				}
 
 			}
@@ -149,9 +149,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 135.0, 25.0, 20.0 ],
+					"patching_rect" : [ 255.0, 135.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 150.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 144.0, 23.0, 18.0 ],
 					"text" : "Hz"
 				}
 
@@ -166,9 +166,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 135.0, 50.0, 20.0 ],
+					"patching_rect" : [ 195.0, 135.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 150.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 144.0, 49.0, 18.0 ],
 					"varname" : "Amount"
 				}
 
@@ -196,9 +196,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 105.0, 26.0, 20.0 ],
+					"patching_rect" : [ 120.0, 105.0, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 150.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 128.0, 144.0, 25.0, 18.0 ],
 					"text" : "ms"
 				}
 
@@ -214,9 +214,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.0, 105.0, 50.0, 20.0 ],
+					"patching_rect" : [ 60.0, 105.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 150.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 144.0, 48.0, 18.0 ],
 					"varname" : "Duration"
 				}
 
@@ -231,7 +231,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 165.0, 225.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 225.0, 150.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
 					"varname" : "Function Envelope Modulation"
 				}
 

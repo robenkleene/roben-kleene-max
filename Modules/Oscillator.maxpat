@@ -39,11 +39,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 555.0, 15.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"Waveform" : [ 0 ]
+						"Waveform" : [ 2 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u988001403"
+					"varname" : "u783004362"
 				}
 
 			}
@@ -100,9 +100,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 15.0, 60.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 60.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 60.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 56.0, 18.0 ],
 					"varname" : "Waveform"
 				}
 
@@ -237,7 +237,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 15.0, 25.0, 25.0 ]
 				}
 
@@ -261,6 +261,7 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 13.0,
 					"id" : "obj-21",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -487,7 +488,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

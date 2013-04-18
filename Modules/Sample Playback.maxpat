@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -36,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 45.0, 149.0, 20.0 ],
-					"text" : "loadmess setsize 300 120"
+					"patching_rect" : [ 15.0, 45.0, 132.0, 18.0 ],
+					"text" : "loadmess setsize 320 128"
 				}
 
 			}
@@ -85,7 +85,7 @@
 					"outlettype" : [ "signal", "signal", "float" ],
 					"patching_rect" : [ 15.0, 300.0, 225.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 135.0, 225.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 135.0, 144.0, 33.0 ]
 				}
 
 			}
@@ -97,9 +97,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "float", "float", "float", "float" ],
-					"patching_rect" : [ 15.0, 90.0, 330.0, 150.0 ],
+					"patching_rect" : [ 15.0, 90.0, 345.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 330.0, 150.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 344.0, 144.0 ],
 					"varname" : "Sample View"
 				}
 
@@ -172,14 +172,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "Sample View.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample Transport.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

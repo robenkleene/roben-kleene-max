@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -120,7 +120,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64"
 						}
 ,
@@ -420,7 +420,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64"
 						}
 ,
@@ -615,7 +615,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64"
 						}
 ,
@@ -986,7 +986,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 330.0, 240.0, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 495.0, 120.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 496.0, 128.0 ]
 				}
 
 			}

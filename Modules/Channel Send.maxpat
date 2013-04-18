@@ -36,9 +36,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 105.0, 26.0, 20.0 ],
+					"patching_rect" : [ 165.0, 105.0, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 15.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 80.0, 8.0, 24.0, 18.0 ],
 					"text" : "Ch"
 				}
 
@@ -53,7 +53,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 285.0, 180.0, 75.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 30.0, 75.0, 45.0 ]
+					"presentation_rect" : [ 48.0, 24.0, 64.0, 32.0 ]
 				}
 
 			}
@@ -95,7 +95,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 105.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 56.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 270.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -278,7 +278,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Channel Select.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Routing",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

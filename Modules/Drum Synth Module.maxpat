@@ -37,7 +37,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 192.0, 616.0, 192.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 735.0, 15.0, 30.0, 150.0 ],
+					"presentation_rect" : [ 680.0, 8.0, 24.0, 152.0 ],
 					"varname" : "Gain"
 				}
 
@@ -52,7 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 20.0, 20.0 ],
 					"varname" : "On"
 				}
 
@@ -81,7 +81,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 192.0, 88.0, 225.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 0.0, 225.0, 180.0 ],
+					"presentation_rect" : [ 80.0, 0.0, 208.0, 168.0 ],
 					"varname" : "Frequency Modulation Function Envelope"
 				}
 
@@ -103,7 +103,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u234001061"
+					"varname" : "u736004957"
 				}
 
 			}
@@ -142,7 +142,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 192.0, 336.0, 435.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.0, 0.0, 435.0, 180.0 ],
+					"presentation_rect" : [ 280.0, 0.0, 400.0, 168.0 ],
 					"varname" : "Biquad Filter Plugin"
 				}
 
@@ -171,7 +171,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 192.0, 528.0, 105.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 105.0, 105.0, 75.0 ],
+					"presentation_rect" : [ 0.0, 72.0, 80.0, 56.0 ],
 					"varname" : "AD Envelope"
 				}
 
@@ -198,7 +198,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 192.0, 280.0, 90.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 60.0, 90.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 48.0, 72.0, 32.0 ],
 					"varname" : "Oscillator"
 				}
 
@@ -214,7 +214,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 40.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 45.0, 23.0, 18.0 ],
+					"presentation_rect" : [ 56.0, 32.0, 23.0, 18.0 ],
 					"text" : "Hz"
 				}
 
@@ -230,7 +230,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 16.0, 71.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 15.0, 58.0, 18.0 ],
+					"presentation_rect" : [ 32.0, 8.0, 58.0, 18.0 ],
 					"text" : "Oscillator"
 				}
 
@@ -247,7 +247,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 192.0, 40.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 32.0, 48.0, 18.0 ],
 					"varname" : "Frequency"
 				}
 

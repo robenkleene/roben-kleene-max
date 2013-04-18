@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64"
 						}
 ,
@@ -413,9 +413,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 255.0, 44.0, 20.0 ],
+					"patching_rect" : [ 615.0, 255.0, 44.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 15.0, 44.0, 20.0 ],
+					"presentation_rect" : [ 32.0, 8.0, 41.0, 18.0 ],
 					"text" : "Signal"
 				}
 
@@ -430,7 +430,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 585.0, 255.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -485,9 +485,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 255.0, 46.0, 20.0 ],
+					"patching_rect" : [ 525.0, 255.0, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 46.0, 20.0 ],
+					"presentation_rect" : [ 57.0, 33.0, 40.0, 18.0 ],
 					"text" : "% Wet"
 				}
 
@@ -504,9 +504,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 465.0, 255.0, 50.0, 20.0 ],
+					"patching_rect" : [ 465.0, 255.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 32.0, 49.0, 18.0 ],
 					"varname" : "wet"
 				}
 

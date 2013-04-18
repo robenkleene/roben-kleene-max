@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -38,7 +38,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 72.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -77,7 +77,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 15.0, 25.0, 25.0 ]
 				}
 
@@ -91,9 +91,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 15.0, 67.0, 20.0 ],
+					"patching_rect" : [ 45.0, 15.0, 67.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 67.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 62.0, 18.0 ],
 					"text" : "Active Key"
 				}
 
@@ -215,7 +215,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

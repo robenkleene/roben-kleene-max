@@ -205,9 +205,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 360.0, 165.0, 60.0, 20.0 ],
+					"patching_rect" : [ 360.0, 165.0, 60.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 60.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 32.0, 48.0, 18.0 ]
 				}
 
 			}
@@ -222,9 +222,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 285.0, 240.0, 50.0, 20.0 ],
+					"patching_rect" : [ 285.0, 240.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 49.0, 18.0 ]
 				}
 
 			}
@@ -237,9 +237,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 240.0, 19.0, 20.0 ],
+					"patching_rect" : [ 345.0, 240.0, 19.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 19.0, 18.0 ],
 					"text" : "x"
 				}
 

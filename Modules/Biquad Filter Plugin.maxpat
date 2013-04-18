@@ -37,7 +37,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 450.0, 105.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 105.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 64.0, 80.0, 29.0 ],
 					"varname" : "Bypass"
 				}
 
@@ -98,7 +98,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 75.0, 120.0, 330.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 435.0, 180.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 400.0, 168.0 ],
 					"varname" : "Biquad Filter"
 				}
 

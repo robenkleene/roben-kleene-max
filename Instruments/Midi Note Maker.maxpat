@@ -8,9 +8,9 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 1106.0, 343.0, 306.0, 160.0 ],
+		"openrect" : [ 246.0, 99.0, 154.0, 86.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial Bold",
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 195.0, 75.0, 53.0, 20.0 ],
+					"patching_rect" : [ 195.0, 75.0, 53.0, 18.0 ],
 					"text" : "select S"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 195.0, 45.0, 46.0, 20.0 ],
+					"patching_rect" : [ 195.0, 45.0, 46.0, 18.0 ],
 					"text" : "itoa"
 				}
 
@@ -78,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 158.0, 20.0 ],
+					"patching_rect" : [ 15.0, 120.0, 158.0, 18.0 ],
 					"text" : "loadmess port \"from Max 1\""
 				}
 
@@ -91,7 +91,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 150.0, 51.0, 20.0 ],
+					"patching_rect" : [ 0.0, 150.0, 51.0, 18.0 ],
 					"text" : "noteout"
 				}
 
@@ -106,7 +106,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 180.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 180.0, 105.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 144.0, 80.0 ]
 				}
 
 			}

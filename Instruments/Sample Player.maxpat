@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"openrect" : [ 655.0, 311.0, 330.0, 271.0 ],
+		"openrect" : [ 260.0, 269.0, 345.0, 236.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 480.0, 135.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 195.0, 135.0, 75.0 ]
+					"presentation_rect" : [ 216.0, 160.0, 112.0, 56.0 ]
 				}
 
 			}
@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 105.0, 90.0, 34.0, 20.0 ],
+					"patching_rect" : [ 105.0, 90.0, 34.0, 18.0 ],
 					"text" : "t b b"
 				}
 
@@ -64,7 +64,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 150.0, 375.0, 210.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 0.0, 210.0, 75.0 ],
+					"presentation_rect" : [ 136.0, 160.0, 79.0, 56.0 ],
 					"varname" : "AD Envelope"
 				}
 
@@ -78,7 +78,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 150.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 45.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 64.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 0.0, 0.0, 150.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 75.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 64.0, 34.0 ]
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 135.0, 33.0, 18.0 ],
+					"patching_rect" : [ 210.0, 135.0, 33.0, 16.0 ],
 					"text" : "stop"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 180.0, 15.0, 42.0, 20.0 ],
+					"patching_rect" : [ 180.0, 15.0, 42.0, 18.0 ],
 					"text" : "active"
 				}
 
@@ -133,7 +133,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 180.0, 105.0, 61.0, 20.0 ],
+					"patching_rect" : [ 180.0, 105.0, 61.0, 18.0 ],
 					"text" : "select s e"
 				}
 
@@ -158,9 +158,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 150.0, 165.0, 330.0, 180.0 ],
+					"patching_rect" : [ 150.0, 165.0, 330.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 60.0, 330.0, 180.0 ],
+					"presentation_rect" : [ 0.0, 24.0, 336.0, 168.0 ],
 					"varname" : "Sample Playback"
 				}
 

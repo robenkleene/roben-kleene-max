@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"openrect" : [ 664.0, 140.0, 138.0, 304.0 ],
+		"openrect" : [ 664.0, 140.0, 116.0, 234.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,7 +37,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 165.0, 105.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 120.0, 105.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 88.0, 80.0, 80.0 ],
 					"varname" : "Sample Rate Reducer Plugin"
 				}
 
@@ -51,7 +51,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 285.0, 135.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 225.0, 135.0, 75.0 ]
+					"presentation_rect" : [ 0.0, 168.0, 112.0, 56.0 ]
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 15.0, 105.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 105.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 80.0, 32.0 ]
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 75.0, 105.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 45.0, 105.0, 75.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 80.0, 56.0 ],
 					"varname" : "Bit Crush Plugin"
 				}
 

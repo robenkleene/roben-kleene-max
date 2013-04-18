@@ -36,9 +36,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 30.0, 26.0, 20.0 ],
+					"patching_rect" : [ 90.0, 30.0, 26.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 26.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 24.0, 18.0 ],
 					"text" : "Ch"
 				}
 
@@ -53,7 +53,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 15.0, 75.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 75.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 64.0, 32.0 ]
 				}
 
 			}

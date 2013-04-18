@@ -87,7 +87,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 120.0, 30.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 150.0, 30.0 ]
+					"presentation_rect" : [ 8.0, 32.0, 136.0, 24.0 ]
 				}
 
 			}
@@ -100,9 +100,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 15.0, 25.0, 20.0 ],
+					"patching_rect" : [ 75.0, 15.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 15.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 8.0, 23.0, 18.0 ],
 					"text" : "Hz"
 				}
 
@@ -119,9 +119,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 15.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 72.0, 8.0, 48.0, 18.0 ]
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 0.0, 45.0, 90.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 90.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 72.0, 32.0 ],
 					"varname" : "Oscillator"
 				}
 

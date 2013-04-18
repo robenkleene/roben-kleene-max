@@ -169,7 +169,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u463001959"
+					"varname" : "u076000502"
 				}
 
 			}
@@ -298,9 +298,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 45.0, 30.0, 20.0 ],
+					"patching_rect" : [ 180.0, 45.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 45.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 32.0, 25.0, 18.0 ],
 					"text" : "ms"
 				}
 
@@ -314,9 +314,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 45.0, 30.0, 20.0 ],
+					"patching_rect" : [ 75.0, 45.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 30.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 25.0, 18.0 ],
 					"text" : "ms"
 				}
 
@@ -332,9 +332,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 45.0, 50.0, 20.0 ],
+					"patching_rect" : [ 120.0, 45.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 32.0, 48.0, 18.0 ],
 					"varname" : "Decay"
 				}
 
@@ -350,9 +350,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
+					"patching_rect" : [ 15.0, 45.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 48.0, 18.0 ],
 					"varname" : "Attack"
 				}
 

@@ -812,9 +812,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 15.0, 60.0, 20.0 ],
+					"patching_rect" : [ 165.0, 15.0, 60.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 15.0, 32.0, 20.0 ],
+					"presentation_rect" : [ 112.0, 8.0, 29.0, 18.0 ],
 					"text" : "Rev"
 				}
 
@@ -829,7 +829,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 88.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1637,9 +1637,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 48.0, 18.0 ],
 					"varname" : "speed"
 				}
 
@@ -1653,9 +1653,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 15.0, 45.0, 20.0 ],
+					"patching_rect" : [ 75.0, 15.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 32.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 29.0, 18.0 ],
 					"text" : "Spd"
 				}
 

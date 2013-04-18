@@ -83,7 +83,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 270.0, 120.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 120.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 80.0, 40.0 ],
 					"varname" : "Bypass"
 				}
 
@@ -98,7 +98,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 105.0, 165.0, 120.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 120.0, 75.0 ]
+					"presentation_rect" : [ 0.0, 24.0, 72.0, 56.0 ]
 				}
 
 			}
@@ -178,7 +178,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Sample Rate Reducer.maxpat",
-				"bootpath" : "/Users/robenkleene/Development/Projects/Max/Max-Development/Effects",
+				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -186,7 +186,7 @@
 , 			{
 				"name" : "Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../../../../Music/Max/Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

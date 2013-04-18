@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86"
+			"revision" : 1,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 86.0, 69.0, 640.0, 480.0 ],
@@ -126,7 +126,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 45.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 32.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}

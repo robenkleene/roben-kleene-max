@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 199.0, 44.0, 1168.0, 785.0 ],
+		"openrect" : [ 199.0, 44.0, 918.0, 664.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,7 +37,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 165.0, 855.0, 330.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 495.0, 330.0, 240.0 ],
+					"presentation_rect" : [ 8.0, 480.0, 400.0, 168.0 ],
 					"varname" : "Biquad Filter Plugin Signal[1]"
 				}
 
@@ -65,9 +65,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.0, 315.0, 37.0, 20.0 ],
+					"patching_rect" : [ 735.0, 315.0, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 15.0, 37.0, 20.0 ],
+					"presentation_rect" : [ 112.0, 8.0, 35.0, 18.0 ],
 					"text" : "Loop"
 				}
 
@@ -82,7 +82,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 705.0, 315.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 88.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 165.0, 600.0, 330.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 510.0, 300.0, 330.0, 240.0 ],
+					"presentation_rect" : [ 504.0, 344.0, 400.0, 168.0 ],
 					"varname" : "Biquad Filter Plugin Signal"
 				}
 
@@ -246,7 +246,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 510.0, 600.0, 525.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 360.0, 525.0, 150.0 ]
+					"presentation_rect" : [ 0.0, 344.0, 512.0, 144.0 ]
 				}
 
 			}
@@ -264,7 +264,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64"
 						}
 ,
@@ -315,7 +315,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64"
 										}
 ,
@@ -656,7 +656,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 150.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 64.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -670,7 +670,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 165.0, 390.0, 525.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 225.0, 525.0, 150.0 ]
+					"presentation_rect" : [ 0.0, 208.0, 512.0, 144.0 ]
 				}
 
 			}
@@ -684,7 +684,8 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 165.0, 105.0, 525.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 525.0, 210.0 ]
+					"presentation_rect" : [ 0.0, 24.0, 512.0, 192.0 ],
+					"varname" : "Sample Explorer"
 				}
 
 			}
@@ -698,7 +699,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 0.0, 0.0, 150.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 64.0, 32.0 ]
 				}
 
 			}
@@ -710,7 +711,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 1125.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 465.0, 15.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 464.0, 8.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -1000,77 +1001,77 @@
 		"dependency_cache" : [ 			{
 				"name" : "Note Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample Explorer.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample View.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sample Transport.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Amp Envelope Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Envelope Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Biquad Filter Plugin Signal.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Biquad Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Dry Wet.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Active Key.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}

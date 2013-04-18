@@ -103,9 +103,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
+					"patching_rect" : [ 15.0, 45.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 49.0, 18.0 ]
 				}
 
 			}

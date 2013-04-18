@@ -179,7 +179,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 210.0, 195.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 195.0, 128.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 192.0, 128.0 ],
 					"varname" : "FunctionPattr"
 				}
 

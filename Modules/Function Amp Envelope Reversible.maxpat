@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -38,7 +38,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 120.0, 210.0, 525.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 525.0, 150.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 512.0, 144.0 ]
 				}
 
 			}
@@ -230,7 +230,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Function Envelope Reversible.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 246.0, 317.0, 911.0, 209.0 ],
+		"openrect" : [ 246.0, 317.0, 819.0, 198.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -37,7 +37,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 135.0, 825.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 0.0, 825.0, 180.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 752.0, 168.0 ],
 					"varname" : "Drum Synth Rack"
 				}
 
@@ -91,7 +91,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 90.0, 60.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 15.0, 45.0, 75.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 75.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 24.0, 64.0, 32.0 ]
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 345.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 120.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 8.0, 128.0, 45.0, 45.0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -36,9 +36,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 95.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 95.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 95.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 84.0, 18.0 ],
 					"text" : "Stereo Summer"
 				}
 

@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"openrect" : [ 82.0, 103.0, 184.0, 172.0 ],
+		"openrect" : [ 82.0, 103.0, 160.0, 124.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 165.0, 135.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 135.0, 75.0 ]
+					"presentation_rect" : [ 0.0, 56.0, 112.0, 56.0 ]
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 15.0, 195.0, 90.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 195.0, 90.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 152.0, 64.0 ],
 					"varname" : "Tone Generator"
 				}
 

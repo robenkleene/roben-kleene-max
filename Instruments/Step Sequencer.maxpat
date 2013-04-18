@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"openrect" : [ 68.0, 98.0, 904.0, 197.0 ],
+		"openrect" : [ 68.0, 98.0, 741.0, 111.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -90,7 +90,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 315.0, 780.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 120.0, 870.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 72.0, 736.0, 32.0 ]
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 240.0, 780.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 870.0, 45.0 ]
+					"presentation_rect" : [ 0.0, 48.0, 736.0, 32.0 ]
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
 					"patching_rect" : [ 0.0, 135.0, 555.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 540.0, 75.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 416.0, 56.0 ]
 				}
 
 			}
@@ -450,14 +450,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "Step Engine.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Step Row.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "./Modules",
+				"patcherrelativepath" : "../Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -184,7 +184,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 705.0, 780.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 360.0, 780.0, 180.0 ],
+					"presentation_rect" : [ 0.0, 336.0, 712.0, 168.0 ],
 					"varname" : "Drum Synth Module 3"
 				}
 
@@ -239,7 +239,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 435.0, 780.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 180.0, 780.0, 180.0 ],
+					"presentation_rect" : [ 0.0, 168.0, 712.0, 168.0 ],
 					"varname" : "Drum Synth Module 2"
 				}
 
@@ -254,7 +254,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 150.0, 780.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 780.0, 180.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 712.0, 168.0 ],
 					"varname" : "Drum Synth Module 1"
 				}
 
@@ -269,7 +269,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 975.0, 780.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 540.0, 780.0, 180.0 ],
+					"presentation_rect" : [ 0.0, 504.0, 712.0, 168.0 ],
 					"varname" : "Drum Synth Module 4"
 				}
 
@@ -387,63 +387,63 @@
 		"dependency_cache" : [ 			{
 				"name" : "Drum Synth Module.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Oscillator.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AD Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Biquad Filter Plugin.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Biquad Filter.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Bypass.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Frequency Modulation Function Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Envelope Modulation.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Function Envelope.maxpat",
 				"bootpath" : "/Users/robenkleene/Development/Music/Max/Modules",
-				"patcherrelativepath" : "../Modules",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -1,7 +1,0 @@
-{
-	"preset_data" : [ 		{
-			"number" : 1,
-			"data" : [ 5, "obj-30", "number", "int", 150, 5, "obj-48", "number", "int", -10, 5, "obj-18", "number", "int", 300, 5, "obj-24", "number", "int", 6 ]
-		}
- ]
-}

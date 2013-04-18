@@ -110,9 +110,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 120.0, 23.0, 20.0 ],
+					"patching_rect" : [ 240.0, 120.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 56.0, 8.0, 23.0, 18.0 ],
 					"text" : "bit"
 				}
 
@@ -129,9 +129,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 120.0, 50.0, 20.0 ],
+					"patching_rect" : [ 180.0, 120.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 48.0, 18.0 ]
 				}
 
 			}

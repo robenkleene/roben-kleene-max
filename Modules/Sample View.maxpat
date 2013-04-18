@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
@@ -37,7 +37,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 570.0, 249.0, 20.0 ],
-					"restore" : [ 15.0, 15.0, 495.0, 120.0 ],
+					"restore" : [ 8.0, 8.0, 495.0, 128.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -168,7 +168,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 420.0, 274.0, 20.0 ],
-					"restore" : [ 15.0, 15.0, 495.0, 120.0 ],
+					"restore" : [ 8.0, 8.0, 495.0, 128.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -501,7 +501,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 150.0, 150.0, 495.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 495.0, 120.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 495.0, 128.0 ],
 					"varname" : "WaveformPattr"
 				}
 
@@ -529,7 +529,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 150.0, 150.0, 495.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 495.0, 120.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 495.0, 128.0 ],
 					"varname" : "DropfilePattr"
 				}
 

@@ -59,7 +59,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 105.0, 36.0, 18.0 ],
+					"patching_rect" : [ 345.0, 105.0, 36.0, 16.0 ],
 					"text" : "write"
 				}
 
@@ -73,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 105.0, 35.0, 18.0 ],
+					"patching_rect" : [ 255.0, 105.0, 35.0, 16.0 ],
 					"text" : "read"
 				}
 
@@ -87,8 +87,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 45.0, 150.0, 43.0, 20.0 ],
-					"text" : "* -180"
+					"patching_rect" : [ 45.0, 150.0, 37.0, 18.0 ],
+					"text" : "* -168"
 				}
 
 			}
@@ -101,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 15.0, 91.0, 20.0 ],
+					"patching_rect" : [ 45.0, 15.0, 91.0, 18.0 ],
 					"text" : "loadmess set 0"
 				}
 
@@ -115,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 180.0, 66.0, 18.0 ],
+					"patching_rect" : [ 45.0, 180.0, 66.0, 16.0 ],
 					"text" : "offset 0 $1"
 				}
 
@@ -132,7 +132,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 45.0, 30.0, 90.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 30.0, 105.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 32.0, 96.0 ],
 					"tabs" : [ "1", "2", "3", "4" ]
 				}
 
@@ -146,9 +146,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 330.0, 45.0, 59.5, 20.0 ],
+					"patching_rect" : [ 330.0, 45.0, 59.5, 18.0 ],
 					"text" : "autopattr",
-					"varname" : "u139010124"
+					"varname" : "u231005998"
 				}
 
 			}
@@ -161,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 135.0, 91.0, 18.0 ],
+					"patching_rect" : [ 195.0, 135.0, 91.0, 16.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -175,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 300.0, 105.0, 32.5, 20.0 ],
+					"patching_rect" : [ 300.0, 105.0, 32.5, 18.0 ],
 					"text" : "+ 1"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 135.0, 65.0, 18.0 ],
+					"patching_rect" : [ 360.0, 135.0, 65.0, 16.0 ],
 					"text" : "writeagain"
 				}
 
@@ -203,7 +203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 300.0, 135.0, 54.0, 20.0 ],
+					"patching_rect" : [ 300.0, 135.0, 54.0, 18.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -218,7 +218,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 375.0, 75.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 420.0, 120.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 376.0, 120.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 195.0, 15.0, 60.0, 20.0 ],
+					"patching_rect" : [ 195.0, 15.0, 60.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -245,7 +245,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 45.0, 119.0, 18.0 ],
+					"patching_rect" : [ 195.0, 45.0, 119.0, 16.0 ],
 					"text" : "pattrstorage Presets"
 				}
 
@@ -259,9 +259,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 75.0, 32.5, 18.0 ],
+					"patching_rect" : [ 285.0, 75.0, 32.5, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 120.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 328.0, 120.0, 18.0, 16.0 ],
 					"text" : "r"
 				}
 
@@ -275,9 +275,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 75.0, 32.5, 18.0 ],
+					"patching_rect" : [ 330.0, 75.0, 32.5, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 390.0, 120.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 352.0, 120.0, 18.0, 16.0 ],
 					"text" : "w"
 				}
 
@@ -292,7 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 165.0, 119.0, 20.0 ],
+					"patching_rect" : [ 285.0, 165.0, 119.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -314,7 +314,7 @@
 					"patching_rect" : [ 195.0, 75.0, 75.0, 15.0 ],
 					"pattrstorage" : "Presets",
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 150.0, 75.0, 15.0 ]
+					"presentation_rect" : [ 328.0, 144.0, 64.0, 16.0 ]
 				}
 
 			}
@@ -325,11 +325,11 @@
 					"name" : "Drum Synth Module Bank.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, -540.0 ],
+					"offset" : [ 0.0, -504.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 225.0, 780.0, 180.0 ],
+					"patching_rect" : [ 15.0, 225.0, 713.0, 167.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 0.0, 780.0, 180.0 ],
+					"presentation_rect" : [ 40.0, 0.0, 712.0, 168.0 ],
 					"varname" : "Drum Synth Modules"
 				}
 

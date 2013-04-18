@@ -48,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 90.0, 49.0, 20.0 ],
+					"patching_rect" : [ 15.0, 90.0, 49.0, 18.0 ],
 					"text" : "t signal"
 				}
 
@@ -62,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 60.0, 73.0, 20.0 ],
+					"patching_rect" : [ 15.0, 60.0, 73.0, 18.0 ],
 					"text" : "route signal"
 				}
 
@@ -99,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 285.0, 38.0, 20.0 ],
+					"patching_rect" : [ 15.0, 285.0, 38.0, 18.0 ],
 					"text" : "+~ 0."
 				}
 
@@ -113,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.0, 255.0, 36.0, 20.0 ],
+					"patching_rect" : [ 120.0, 255.0, 36.0, 18.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -128,7 +128,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 150.0, 90.0, 210.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 225.0, 150.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 208.0, 144.0 ],
 					"varname" : "Function Envelope"
 				}
 
