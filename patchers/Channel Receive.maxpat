@@ -68,8 +68,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 40.0, 16.0, 48.0, 20.0 ],
-					"text" : "adc~ 1 2"
+					"patching_rect" : [ 40.0, 16.0, 32.0, 20.0 ],
+					"text" : "adc~"
 				}
 
 			}
