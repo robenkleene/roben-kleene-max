@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 113.0, 388.0, 710.0, 234.0 ],
+		"rect" : [ 170.0, 353.0, 711.0, 203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 135.0, 15.0, 135.0, 75.0 ],
+					"patching_rect" : [ 56.0, 109.0, 112.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 104.0, 112.0, 64.0 ],
 					"viewvisibility" : 1
@@ -67,7 +67,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 75.0, 32.5, 20.0 ],
+					"patching_rect" : [ 15.0, 152.0, 32.5, 20.0 ],
 					"text" : "/~ 2"
 				}
 
@@ -87,9 +87,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 15.0, 105.0, 45.0 ],
+					"patching_rect" : [ 15.0, 15.0, 105.0, 57.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 80.0, 32.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 80.0, 64.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 105.0, 555.0, 180.0 ],
+					"patching_rect" : [ 15.0, 200.0, 555.0, 180.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 0.0, 568.0, 168.0 ],
 					"viewvisibility" : 1
@@ -118,7 +118,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-3", 1 ],
 					"order" : 1,
 					"source" : [ "obj-2", 1 ]
 				}
