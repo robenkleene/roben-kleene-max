@@ -118,7 +118,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 1 ]
 				}
