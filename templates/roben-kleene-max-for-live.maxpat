@@ -37,19 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 96.0, 150.0, 62.0 ],
-					"text" : "Grid to 8x8\nFont to Arial Bold\nFont Size to 10\nSnap to Grid on Open On\nSnap to Objects on Open Off"
-				}
-
-			}
- ],
+		"boxes" : [  ],
 		"lines" : [  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0
