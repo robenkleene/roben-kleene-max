@@ -12,12 +12,12 @@ var values = [0, 0, 0];
 // `inlet` property reports the inlet number
 function msg_int(value) {
   values[inlet] = value;
-  outlet(inlet, value);
+  outlet(inlet, "int " + value);
 }
 
 function msg_float(value) {
   values[inlet] = value;
-  outlet(inlet, value);
+  outlet(inlet, "float " + value);
 }
 
 // Called when a bang is received
@@ -30,7 +30,7 @@ function bang() {
 function list(value) {
   values[inlet] = value;
   if (arguments.length > 0) {
-    outlet(inlet, value)
+    outlet(inlet, "list " + value);
   }
 }
 
@@ -38,6 +38,6 @@ function list(value) {
 function anything(value) {
   values[inlet] = value;
   if (arguments.length > 0) {
-    outlet(inlet, value)
+    outlet(inlet, "anything " + value);
   }
 }
