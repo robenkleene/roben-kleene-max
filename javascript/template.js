@@ -1,5 +1,5 @@
 // Re-compile the file automatically when it changes
-// autowatch = 1;
+autowatch = 1;
 
 // Inlets & Outlets
 inlets = 3;
@@ -28,7 +28,9 @@ function bang() {
 
 // Called when a message starts with `list`
 function list(value) {
-  values[inlet] = value;
+  // Only gets the first value
+  // values[inlet] = value;
+
   if (arguments.length > 0) {
     outlet(inlet, "list " + value);
   }
@@ -36,8 +38,18 @@ function list(value) {
 
 // Called if there's no function match
 function anything(value) {
-  values[inlet] = value;
+  // Only gets the first argument
+  // values[inlet] = value;
+
+  myobjectprinter(arguments);
   if (arguments.length > 0) {
     outlet(inlet, "anything " + value);
   }
+}
+
+function process(inlet, arguments) {
+}
+
+function log(obj) {
+  post(JSON.stringify(obj))
 }
