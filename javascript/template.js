@@ -5,45 +5,44 @@ autowatch = 1;
 inlets = 3;
 outlets = 3;
 
-// Store Input
+// Store input
 var values = [0, 0, 0];
 
-// The `msg_` functions get called on input of the appropriate type regardless of inlet
-// `inlet` property reports the inlet number
+// `msg_int()` is called when an int is received
 function msg_int(value) {
   values[inlet] = value;
   outlet(inlet, "int " + value);
 }
 
+// `msg_float()` is called when a float is received
 function msg_float(value) {
   values[inlet] = value;
   outlet(inlet, "float " + value);
 }
 
-// Called when a bang is received
+// `bang()` is called when a bang is received
 function bang() {
   // The string `"bang"` sends a bang out the outlet
   outlet(inlet, "bang");
 }
 
-// Called when a message starts with `list`
+// `list()` is called when a message starts with `list`
 function list(value) {
-  // Only gets the first value
+  // `value` is only the first argument
   // values[inlet] = value;
-
-  if (arguments.length > 0) {
-    outlet(inlet, "list " + value);
-  }
+  post("value = " + value);
+  process_arguments(inlet, arguments, "list");
 }
 
-// Called if there's no function match
-function anything(_) {
-  // `value` only gets the first argument
+// `anything()` is called when there's no function match
+function anything(value) {
+  // `value` is only the first argument
   // values[inlet] = value;
-  process(inlet, arguments, "anything");
+  post("value = " + value);
+  process_arguments(inlet, arguments, "anything");
 }
 
-function process(inlet, arguments, prefix) {
+function process_arguments(inlet, arguments, prefix) {
   for (let i = 0; i < arguments.length; i++) {
     values[i] = arguments[i];
   }
