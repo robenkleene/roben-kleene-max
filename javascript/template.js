@@ -37,19 +37,20 @@ function list(value) {
 }
 
 // Called if there's no function match
-function anything(value) {
-  // Only gets the first argument
+function anything(_) {
+  // `value` only gets the first argument
   // values[inlet] = value;
-
-  myobjectprinter(arguments);
-  if (arguments.length > 0) {
-    outlet(inlet, "anything " + value);
-  }
+  process(inlet, arguments, "anything");
 }
 
-function process(inlet, arguments) {
+function process(inlet, arguments, prefix) {
+  for (let i = 0; i < arguments.length; i++) {
+    values[i] = arguments[i];
+  }
+  outlet(inlet, prefix + " " + arguments.join());
 }
 
 function log(obj) {
+  // `post` logs to console
   post(JSON.stringify(obj))
 }
