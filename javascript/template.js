@@ -8,6 +8,8 @@ outlets = 3;
 // Store input
 var values = [0, 0, 0];
 
+// `inlet` property reports the inlet number
+
 // `msg_int()` is called when an int is received
 function msg_int(value) {
   values[inlet] = value;
@@ -43,7 +45,7 @@ function anything(value) {
 }
 
 function process_arguments(inlet, arguments, prefix) {
-  for (let i = 0; i < arguments.length; i++) {
+  for (i = 0; i < arguments.length; i++) {
     values[i] = arguments[i];
   }
   outlet(inlet, prefix + " " + arguments.join());
@@ -51,5 +53,5 @@ function process_arguments(inlet, arguments, prefix) {
 
 function log(obj) {
   // `post` logs to console
-  post(JSON.stringify(obj))
+  post(JSON.stringify(obj));
 }
