@@ -33,7 +33,7 @@ function list(value) {
   // `value` is only the first argument
   // values[inlet] = value;
   post("value = " + value);
-  process_arguments(inlet, arguments, "list");
+  process_arguments(inlet, messagename, arguments, "anything");
 }
 
 // `anything()` is called when there's no function match
@@ -41,14 +41,23 @@ function anything(value) {
   // `value` is only the first argument
   // values[inlet] = value;
   post("value = " + value);
-  process_arguments(inlet, arguments, "anything");
+  // `messagename` is the first symbol in a list
+  // E.g., if `a b c` is passed in, it's `a`
+  process_arguments(inlet, messagename, arguments, "anything");
 }
 
-function process_arguments(inlet, arguments, prefix) {
-  for (i = 0; i < arguments.length; i++) {
+function process_arguments(inlet, firstElement, arguments, prefix) {
+  // Max javascript only supports `var` not `let`
+  for (var i = 0; i < arguments.length; i++) {
     values[i] = arguments[i];
   }
-  outlet(inlet, prefix + " " + arguments.join());
+
+  // In a called function, `messagename` is the name of the function that called this one (e.g., `anything` or `list`)
+  // The `arguments` property can be numerically indexed like an `Array` but is not an instance of `Array`.
+  // `arrayfromargs` converts to an actual array
+  var arr = arrayfromargs(firstElement, arguments);
+  // var arr = arrayfromargs(arguments);
+  outlet(inlet, prefix + " " + arr.join());
 }
 
 function log(obj) {
