@@ -29,20 +29,24 @@ function bang() {
 }
 
 // `list()` is called when a message starts with `list`
+// Only messages that beginning with a number (e.g., `1, b, 3, d`) will call
+// `list` (otherwise `anything` will be called).
 function list(value) {
   // `value` is only the first argument
-  // values[inlet] = value;
+  // If the first parameter is a symbol, then it's treated as a function name
   post("value = " + value);
-  process_arguments(inlet, messagename, arguments, "anything");
+  // If the input is all numbers, `messagename` is `list`
+  post("messagename = " + messagename);
+  process_arguments(inlet, messagename, arguments, "list");
 }
 
 // `anything()` is called when there's no function match
 function anything(value) {
   // `value` is only the first argument
-  // values[inlet] = value;
   post("value = " + value);
-  // `messagename` is the first symbol in a list
+  // If input starts `messagename` is the first symbol in a list
   // E.g., if `a b c` is passed in, it's `a`
+  post("messagename = " + messagename);
   process_arguments(inlet, messagename, arguments, "anything");
 }
 
